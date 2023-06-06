@@ -4,20 +4,20 @@ export default {
   isLocal,
 
   // Webapp url
-  url: isLocal ? 'http://localhost:3000' : 'https://rolebase.io',
+  url: isLocal ? 'http://localhost:3000' : 'https://brave-smoke-0dfcffa03.3.azurestaticapps.net',
 
   // Website to redirect unauthentified users to
-  websiteUrl: 'https://www.rolebase.io',
+  websiteUrl: 'https://brave-smoke-0dfcffa03.3.azurestaticapps.net',
 
   // Nhost
   nhost: {
-    subdomain: isLocal ? 'local' : 'fsudktxishllphxeibqs',
+    subdomain: isLocal ? 'local' : 'qeljszoxpnphnuxgbped',
     region: isLocal ? undefined : 'eu-central-1',
   },
 
   functionsUrl: isLocal
     ? 'http://localhost:1337/v1/functions/'
-    : 'https://fsudktxishllphxeibqs.nhost.run/v1/functions/',
+    : 'https://qeljszoxpnphnuxgbped.nhost.run/v1/functions/',
 
   yjsCollab: {
     url: isLocal ? 'ws://localhost:1234' : 'wss://collab.rolebase.io',
