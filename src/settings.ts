@@ -4,10 +4,10 @@ export default {
   isLocal,
 
   // Webapp url
-  url: isLocal ? 'http://localhost:3000' : 'https://brave-smoke-0dfcffa03.3.azurestaticapps.net',
+  url: isLocal ? 'http://localhost:3000' : 'https://actin-rolebase-webapp.azurewebsites.net',
 
   // Website to redirect unauthentified users to
-  websiteUrl: 'https://brave-smoke-0dfcffa03.3.azurestaticapps.net',
+  websiteUrl: 'https://actin-rolebase-webapp.azurewebsites.net',
 
   // Nhost
   nhost: {

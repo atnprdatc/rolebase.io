@@ -5,7 +5,7 @@ const isLocal = process.env.NHOST_ADMIN_SECRET === 'nhost-admin-secret'
 
 export default {
   isLocal,
-  url: isLocal ? 'http://localhost:3000' : 'https://brave-smoke-0dfcffa03.3.azurestaticapps.net',
+  url: isLocal ? 'http://localhost:3000' : 'https://actin-rolebase-webapp.azurewebsites.net',
   storageUrl: isLocal
     ? 'http://localhost:1337/v1/storage/files/'
     : 'https://qeljszoxpnphnuxgbped.storage.eu-central-1.nhost.run/v1/files/',
