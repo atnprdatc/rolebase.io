@@ -7,7 +7,7 @@ export default {
   url: isLocal ? 'http://localhost:3000' : 'https://brave-smoke-0dfcffa03.3.azurestaticapps.net',
 
   // Website to redirect unauthentified users to
-  websiteUrl: 'https://brave-smoke-0dfcffa03.3.azurestaticapps.net',
+  websiteUrl: 'https://brave-smoke-0dfcffa03.3.azurestaticapps.net/sign-in',
 
   // Nhost
   nhost: {
