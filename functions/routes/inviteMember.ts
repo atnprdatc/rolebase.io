@@ -71,7 +71,7 @@ export default route(async (context) => {
           Name: member.name,
         },
       ],
-      TemplateID: 3285393,
+      TemplateID: 4866204,
       TemplateLanguage: true,
       Subject: `Invitation dans l'organisation ${org.name}`,
       Variables: {
