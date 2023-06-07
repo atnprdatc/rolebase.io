@@ -6,7 +6,7 @@ export default {
   // Webapp url
   url: isLocal ? 'http://localhost:3000' : 'https://rolebase.actinvision.com',
   // Website to redirect unauthentified users to
-  websiteUrl: 'https://rolebase.actinvision.com/',
+  websiteUrl: 'https://rolebase.actinvision.com/login',
 
   // Nhost
   nhost: {
