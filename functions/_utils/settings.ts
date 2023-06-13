@@ -37,8 +37,8 @@ export default {
 
   mail: {
     sender: {
-      name: 'IT Actinvision',
-      email: 'it@actinvision.com',
+      name: 'Rolebase Actinvision',
+      email: 'rolebase@actinvision.com',
     },
   },
 
